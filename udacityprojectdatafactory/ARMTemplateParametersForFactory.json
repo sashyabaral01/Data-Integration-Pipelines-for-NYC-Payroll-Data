@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "udacityprojectdatafactory"
+		},
+		"adls_ls_accountKey": {
+			"value": ""
+		},
+		"azure_synapse_linked_service_connectionString": {
+			"value": ""
+		},
+		"sql_db_linked_service_connectionString": {
+			"value": ""
+		},
+		"adls_ls_properties_typeProperties_url": {
+			"value": "https://adlsnycpayrollsashyab.dfs.core.windows.net/"
+		}
+	}
+}
