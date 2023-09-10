@@ -1,0 +1,30 @@
+{
+	"name": "synapse_ds_emp_md",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azure_synapse_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "EmployeeID",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NYC_Payroll_EMP_MD"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
